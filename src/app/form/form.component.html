@@ -1,0 +1,24 @@
+<div>
+{{ title }}
+</div>
+
+<div>
+<table align="center" >
+	<tr>
+		<td>
+			Name:<input type="text" class="form-control" id="name" required [(ngModel)]="model.name" name="name" #name="ngModel">
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Age:<input type="text" class="form-control" id="age" required [(ngModel)]="model.age" name="age" #age="ngModel"> 
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Office:<input type="text" class="form-control" id="office" required [(ngModel)]="model.office" name="office" #office="ngModel">
+		</td>
+	</tr>
+</table>	
+</div>
+
